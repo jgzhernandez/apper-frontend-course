@@ -36,7 +36,7 @@ stack.pop()
 stack.check()  // [“Milk”]
 stack.pop()
 stack.check()  // []
-stack.push(["Ice Cream", 10, [], "Cellphone"])
+stack.push(["Ice Cream", 10, [], "Cellphone"]) // Item '10' is not a string.,   Item '' is not a string.
 stack.check()  // ["Ice Cream", "Cellphone"]
 stack.pop()
 stack.check()  // [“Ice Cream”]
