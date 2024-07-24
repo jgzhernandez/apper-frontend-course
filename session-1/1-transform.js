@@ -1,5 +1,5 @@
 function transform(nums) {
-    // ...some logic here
+    return nums.map(num => num * num).sort((a, b) => a - b)
   }
   
   const nums = [4,9,5,3,8]
