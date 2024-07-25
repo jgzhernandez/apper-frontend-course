@@ -1,0 +1,135 @@
+html{
+    background-color: #1b1f23;
+}
+
+.box{
+    border: 1px solid #fff;
+}
+
+#left .side-panel, #right .side-panel{
+    width: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    height: 100%;
+    text-align: center;
+}
+
+#left, #right {
+    position: fixed;
+    height: 100%;
+}
+
+/* Left Panel */
+#left {
+    left: 0;
+    width: 75px;
+}
+
+#navigation{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 75px;
+}
+
+#hamburger-nav{
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+#history{
+    display: block;
+    margin: .2rem auto;
+    padding: 0;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+
+#src-code{
+    width: 73px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+/* Mid Panel */
+#mid{
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0 110px;
+    max-width: 1680px;
+}
+
+#header{
+    width:auto;
+    display: block;
+}
+
+#buttons{
+    display: block;
+    text-align: center;
+    bottom: 0;
+    z-index: 3;
+    position: fixed;
+    right: 75px;
+    left: 75px;
+    height: 90px;
+}
+
+#content {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+#content h1{
+    color: #fff;
+    display: block;
+}
+
+#button-container{
+    padding: 20px .5rem;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.button{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+#logo{
+    max-width: 320px;
+    padding: 2rem 0;
+    border: 1px solid #fff;
+}
+
+#logo p{
+    color: #fff;
+}
+
+/* Right Panel */
+#right {
+    right: 0px;
+    width: 75px;
+}
+
+#dark-mode{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    height: 71px;
+}
